@@ -27,12 +27,12 @@
               </div>
               <div class="question">
                   <div class="card">
-                      <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+                      <h3>{{questionList[currentQuestion]?.questions[randomNumber].questionText}}</h3>
                   </div>
     
               </div>
               <div class="options">
-                <ol *ngFor="let option of questionList[currentQuestion]?.options">
+                <ol *ngFor="let option of questionList[currentQuestion]?.questions[randomNumber].options">
                     <li (click)="answer(currentQuestion+1, option)">
                         <div  appChangeBg [isCorrect]="option.correct" class="card">
                             {{option.text}}

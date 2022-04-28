@@ -17,20 +17,29 @@ export class QuestionComponent implements OnInit {
   incorrectAnswer : number = 0;
   progress: string = "0";
   isQuizCompleted : boolean = false;
+  randomNumber = 0;
   constructor( private questionService : QuestionService) { }
 
   ngOnInit(): void {
     this.name = localStorage.getItem("name")!;
     this.getAllQuestions();
+    this.generateRandomNumber(0, 4)
   }
 
   getAllQuestions(){
     this.questionService.getQuestionJson()
     .subscribe(res =>{
-      console.log(res.questions);
-      this.questionList = res.questions;
+      this.questionList = res
+      console.log(res);
     })
   }
+
+  generateRandomNumber(min: number, max: number) {
+    this.randomNumber = Math.floor((Math.random() * (max - min + 1)) + min)
+    console.log(this.randomNumber);
+    
+  }
+  
   nextQuestion(){
     this.currentQuestion++;
   }
@@ -47,6 +56,7 @@ export class QuestionComponent implements OnInit {
       this.correctAnswer++;
       setTimeout(()=>{
         this.currentQuestion++;
+        this.generateRandomNumber(0, 4);
         this.getProgressPercet();
       },1000);
  
