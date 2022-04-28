@@ -30,13 +30,11 @@ export class QuestionComponent implements OnInit {
     this.questionService.getQuestionJson()
     .subscribe(res =>{
       this.questionList = res
-      console.log(res);
     })
   }
 
   generateRandomNumber(min: number, max: number) {
     this.randomNumber = Math.floor((Math.random() * (max - min + 1)) + min)
-    console.log(this.randomNumber);
     
   }
   
@@ -49,7 +47,7 @@ export class QuestionComponent implements OnInit {
 
   answer(currentQno:number, option : any){
     if(currentQno === this.questionList.length){
-      this.isQuizCompleted = true;
+      this.finishQuiz(this.points);
     }
     if(option.correct){
       this.points+= 10;
@@ -67,17 +65,21 @@ export class QuestionComponent implements OnInit {
         this.incorrectAnswer++;
         this.getProgressPercet();
       },1000);
-      this.isQuizCompleted = true;
+      this.finishQuiz(this.points);
+      console.log(this.points);
     }
   }
 
+  finishQuiz(point: number){
+    this.isQuizCompleted = true
+    localStorage.setItem("point" , point.toString())
+  }
 
-  exitQuiz(){
-    
+  exitQuiz(){    
     this.getAllQuestions();
     this.points = 0;
     this.progress= "0";
-    this.isQuizCompleted = true;
+    this.finishQuiz(this.points);
     
   }
   getProgressPercet(){
