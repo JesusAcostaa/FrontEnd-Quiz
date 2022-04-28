@@ -1,27 +1,16 @@
-# AngularQuiz
+# PREGUNTAS Y RESPUESTAS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+Hola a la persona que revise esto, esto es un  **QUIZ** hecho en Angular. 
 
-## Development server
+Para poder ejecutar el programa debes clonarlo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Luego en tu terminal deberás instalar los módulos de node.js
+```
+npm install
+```
 
-## Code scaffolding
+Luego vas a desplegar un servidor con el comando `ng serve` y este te desplegará automáticamente la ventana del navegador con la primera vista del proyecto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+De lo contrario, copie y pegue la dirección que le brinda la consola donde ejecutó el comando. o `http://localhost:4200/`
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Y ya :D
