@@ -104,98 +104,98 @@
         "questions": [
             {
                
-                "questionText": "¿Que es un Diagrama de flujo de datos2?",
+                "questionText": "¿Que es la programacion orientada a objetos?",
                 "options": [{
-                        "text": "Es la Representación Simbólica de un Algoritmo.",
+                        "text": "Es una forma especial de programar, más cercana a como expresaríamos las cosas en la vida real que otros tipos de programación.",
                         "correct": true
                     },
                     {
-                        "text": "Es una serie de pasos para dar solución a un problema."
+                        "text": "Es una forma de programar con objetos reales."
                     },
                     {
-                        "text": "Es el orden de los pasos para un sistema de informacion."
+                        "text": "Programacion de celulares con objetos"
                     },
                     {
-                        "text": "Es el estudio de las ordenes creadas por un programador."
+                        "text": "Ninguna de las anteriores."
                     }
                 ],
-                "explanation": "TS uses a colon (:) to separate the property name from the property type"
+                "explanation": " "
             },
             {
                 
-                "questionText": "¿Que es un algoritmo2?",
+                "questionText": "¿Que es la comunicacion entre objetos?",
                 "options": [{
-                        "text": "Es un programa que actúa como intermediario entre el usuario y el hardware de un computador"
+                        "text": "Cuando dos objetos se comunican."
                     },
                     {
-                        "text": "Es el seguimiento del DFD para la solucion a un problema."
+                        "text": "La comunicacion de varias computadoras al programar."
                     },
                     {
-                        "text": "Es el orden de los pasos para un sistema de informacion."
+                        "text": "Ninguna de las anteriores."
                     },
                     {
-                        "text": "Es una serie de pasos para dar solución a un problema.",
+                        "text": "Cuando se produce un evento, el objeto receptor sabe cual es el objeto emisor y el valor con los datos apropiado tengan el mismo evento.",
                         "correct": true
                     }
                 ],
-                "explanation": "enum is not used as a type in TypeScript"
+                "explanation": " "
             },
             {
                 
-                "questionText": "En un lenguaje débilmente tipado2",
+                "questionText": "¿Que es la abstraccion?",
                 "options": [{
-                        "text": "Un valor de un tipo nunca puede ser tratado como de otro tipo"
+                        "text": "Es la caracteristica que define un computadora."
                     },
                     {
-                        "text": "Un valor de un tipo puede ser tratado como de otro tipo",
+                        "text": "Aquellas caracteristicas que lo distinguen de los demás tipos de objetos y que logran definir límites conceptuales",
                         "correct": true
                     },
                     {
-                        "text": "Un valor de un tipo puede ser tratado como de otro tipo siempre que se realice una conversión de forma explícita"
+                        "text": "Ninguna de las anteriores."
                     },
                     {
-                        "text": "Las anteriores respuestas no son correctas"
+                        "text": "Es una herramienta de programacion."
                     }
                 ],
-                "explanation": "interfaces are typically used to list the properties and methods for an object"
+                "explanation": " "
             },
             {
                 
-                "questionText": "Una cola es:2",
+                "questionText": "¿Que es una herencia?",
                 "options": [{
-                        "text": "Una estructura de datos en la que sólo se pueden realizar inserciones, pero nunca extracciones"
+                        "text": "El tipo de valor de una variable."
                     },
                     {
-                        "text": "Una estructura de datos en la que las inserciones y extracciones se realizan por el mismo extremo",
+                        "text": "Es donde una clase nueva se crea a partir de una clase existente.",
                         "correct": true
                     },
                     {
-                        "text": "Una estructura de datos en la que las inserciones se realizan por un extremo y las extracciones por el otro extremo"
+                        "text": "Es una herramienta de programacion."
                     },
                     {
-                        "text": "Las anteriores respuestas no son correctas"
+                        "text": "Es la herencia de una variable."
                     }
                 ],
-                "explanation": "number[] is another way of writing Array<number> in TypeScript"
+                "explanation": " "
             },
             {
                 
-                "questionText": "El número 1010 en binario se representa en decimal como2",
+                "questionText": "¿Que es el encapsulamiento?",
                 "options": [{
-                        "text": "Las anteriores respuestas no son correctas.",
+                        "text": "Es el proceso de almacenar en una misma sección los elementos de una abstracción que constituyen su estructura y su comportamiento.",
                         "correct": true
                     },
                     {
-                        "text": "8"
+                        "text": "Es la base promiordal de la programacion."
                     },
                     {
-                        "text": "12"
+                        "text": "Es un tipo de programa"
                     },
                     {
-                        "text": "16"
+                        "text": "ninguna de las anteriores."
                     }
                 ],
-                "explanation": "a constructor is used by a class to take in parameters"
+                "explanation": " "
             }
         ]
     },
@@ -203,98 +203,98 @@
         "questions": [
             {
                
-                "questionText": "¿Que es un Diagrama de flujo de datos3?",
+                "questionText": "El concepto de información puede ser definido como: ",
                 "options": [{
-                        "text": "Es la Representación Simbólica de un Algoritmo.",
+                        "text": "Una colección de hechos organizados de tal forma, que tienen un valor adicional más allá del valor de los hechos.",
                         "correct": true
                     },
                     {
-                        "text": "Es una serie de pasos para dar solución a un problema."
+                        "text": "Una base de datos que contiene muestras de ADN (Additional Data Numbers).."
                     },
                     {
-                        "text": "Es el orden de los pasos para un sistema de informacion."
+                        "text": "Una colección de datos que no ha sido organizada, pero que contiene muchos datos importantes sobre algo"
                     },
                     {
-                        "text": "Es el estudio de las ordenes creadas por un programador."
+                        "text": "Un conjunto de datos que nos permite tomar decisiones racionales."
                     }
                 ],
-                "explanation": "TS uses a colon (:) to separate the property name from the property type"
+                "explanation": " "
             },
             {
                 
-                "questionText": "¿Que es un algoritmo3?",
+                "questionText": "¿Qué es un sistema de información?",
                 "options": [{
-                        "text": "Es un programa que actúa como intermediario entre el usuario y el hardware de un computador"
+                        "text": "Es un conjunto de procesadores de computador que toman información importante sobre algo y la modifican."
                     },
                     {
                         "text": "Es el seguimiento del DFD para la solucion a un problema."
                     },
                     {
-                        "text": "Es el orden de los pasos para un sistema de informacion."
+                        "text": "Son los componentes físicos y tecnológicos de un computador que se unen para generar informaciones basadas en datos."
                     },
                     {
-                        "text": "Es una serie de pasos para dar solución a un problema.",
+                        "text": "Es un conjunto de componentes que trabajan juntos para procesar y producir información.",
                         "correct": true
                     }
                 ],
-                "explanation": "enum is not used as a type in TypeScript"
+                "explanation": " "
             },
             {
                 
-                "questionText": "En un lenguaje débilmente tipado3",
+                "questionText": "Del siguiente software ¿cuál NO es un gestor de base de datos?",
                 "options": [{
-                        "text": "Un valor de un tipo nunca puede ser tratado como de otro tipo"
+                        "text": "Access"
                     },
                     {
-                        "text": "Un valor de un tipo puede ser tratado como de otro tipo",
+                        "text": "Excel",
                         "correct": true
                     },
                     {
-                        "text": "Un valor de un tipo puede ser tratado como de otro tipo siempre que se realice una conversión de forma explícita"
+                        "text": "SQL Server"
                     },
                     {
-                        "text": "Las anteriores respuestas no son correctas"
+                        "text": "Oracle"
                     }
                 ],
-                "explanation": "interfaces are typically used to list the properties and methods for an object"
+                "explanation": " "
             },
             {
                 
-                "questionText": "Una cola es:3",
+                "questionText": "En una BD, los objetos a nivel superior, donde se almacena la información.",
                 "options": [{
-                        "text": "Una estructura de datos en la que sólo se pueden realizar inserciones, pero nunca extracciones"
+                        "text": "Registros"
                     },
                     {
-                        "text": "Una estructura de datos en la que las inserciones y extracciones se realizan por el mismo extremo",
+                        "text": "Tablas",
                         "correct": true
                     },
                     {
-                        "text": "Una estructura de datos en la que las inserciones se realizan por un extremo y las extracciones por el otro extremo"
+                        "text": "Campos"
                     },
                     {
-                        "text": "Las anteriores respuestas no son correctas"
+                        "text": "Filas"
                     }
                 ],
-                "explanation": "number[] is another way of writing Array<number> in TypeScript"
+                "explanation": " "
             },
             {
                 
-                "questionText": "El número 1010 en binario se representa en decimal com3",
+                "questionText": "Es un conjunto de información relacionada que se encuentra agrupada y estructurada:",
                 "options": [{
-                        "text": "Las anteriores respuestas no son correctas.",
+                        "text": "Base de datos",
                         "correct": true
                     },
                     {
-                        "text": "8"
+                        "text": "Programación"
                     },
                     {
-                        "text": "12"
+                        "text": "Informática"
                     },
                     {
-                        "text": "16"
+                        "text": "Calculo"
                     }
                 ],
-                "explanation": "a constructor is used by a class to take in parameters"
+                "explanation": " "
             }
         ]
     },
@@ -302,193 +302,193 @@
         "questions": [
             {
                
-                "questionText": "¿Que es un Diagrama de flujo de datos4?",
+                "questionText": "Cuando una interfaz tiene muchos métodos es posible que NO esté cumpliendo:",
                 "options": [{
-                        "text": "Es la Representación Simbólica de un Algoritmo.",
+                        "text": "Interface Segregation",
                         "correct": true
                     },
                     {
-                        "text": "Es una serie de pasos para dar solución a un problema."
+                        "text": "Single Responsibility"
                     },
                     {
-                        "text": "Es el orden de los pasos para un sistema de informacion."
+                        "text": "Dependency Inversion"
                     },
                     {
-                        "text": "Es el estudio de las ordenes creadas por un programador."
+                        "text": "Open/Closed"
                     }
                 ],
-                "explanation": "TS uses a colon (:) to separate the property name from the property type"
+                "explanation": " "
             },
             {
                 
-                "questionText": "¿Que es un algoritmo4?",
+                "questionText": "Cuando se tiene un condicional complejo (muchos if-else) es posible que NO se esté cumpliendo:",
                 "options": [{
-                        "text": "Es un programa que actúa como intermediario entre el usuario y el hardware de un computador"
+                        "text": "Single Responsibility"
                     },
                     {
-                        "text": "Es el seguimiento del DFD para la solucion a un problema."
+                        "text": "Dependency Inversion"
                     },
                     {
-                        "text": "Es el orden de los pasos para un sistema de informacion."
+                        "text": "Interface Segregation"
                     },
                     {
-                        "text": "Es una serie de pasos para dar solución a un problema.",
+                        "text": "Open/Closed",
                         "correct": true
                     }
                 ],
-                "explanation": "enum is not used as a type in TypeScript"
+                "explanation": " "
             },
             {
                 
-                "questionText": "En un lenguaje débilmente tipado4",
+                "questionText": "El principio de sustitución de Liskov dice que un programa debe seguir funcionando correctamente cuando:",
                 "options": [{
-                        "text": "Un valor de un tipo nunca puede ser tratado como de otro tipo"
+                        "text": "Se reemplaza un objeto por una instancia de su clase padre"
                     },
                     {
-                        "text": "Un valor de un tipo puede ser tratado como de otro tipo",
+                        "text": "Se reemplaza un objeto por una instancia de una clase hija",
                         "correct": true
                     },
                     {
-                        "text": "Un valor de un tipo puede ser tratado como de otro tipo siempre que se realice una conversión de forma explícita"
+                        "text": "Se reemplaza un objeto por una instancia de una clase hermana"
                     },
                     {
                         "text": "Las anteriores respuestas no son correctas"
                     }
                 ],
-                "explanation": "interfaces are typically used to list the properties and methods for an object"
+                "explanation": " "
             },
             {
                 
-                "questionText": "Una cola es:4",
+                "questionText": "El principio DRY (Don't Repeat Yourself) dice que:",
                 "options": [{
-                        "text": "Una estructura de datos en la que sólo se pueden realizar inserciones, pero nunca extracciones"
+                        "text": "No se deben usar métodos de otras clases"
                     },
                     {
-                        "text": "Una estructura de datos en la que las inserciones y extracciones se realizan por el mismo extremo",
+                        "text": "No se debe tener lógica repetida en el código",
                         "correct": true
                     },
                     {
-                        "text": "Una estructura de datos en la que las inserciones se realizan por un extremo y las extracciones por el otro extremo"
+                        "text": "No se deben tener atributos que se llamen igual en clases diferentes"
                     },
                     {
                         "text": "Las anteriores respuestas no son correctas"
                     }
                 ],
-                "explanation": "number[] is another way of writing Array<number> in TypeScript"
+                "explanation": " "
             },
             {
                 
-                "questionText": "El número 1010 en binario se representa en decimal como4",
+                "questionText": "El principio de diseño que establece que solo se debe tener una razón para cambiar es",
                 "options": [{
-                        "text": "Las anteriores respuestas no son correctas.",
+                        "text": "Single Responsibility",
                         "correct": true
                     },
                     {
-                        "text": "8"
+                        "text": "Open/Closed"
                     },
                     {
-                        "text": "12"
+                        "text": "Interface Segregation"
                     },
                     {
-                        "text": "16"
+                        "text": "Dependency Inversion"
                     }
                 ],
-                "explanation": "a constructor is used by a class to take in parameters"
+                "explanation": " "
             }
         ]
     }, {
         "questions": [
             {
                
-                "questionText": "¿Que es un Diagrama de flujo de datos5?",
+                "questionText": "Es un paradigma de programación donde nos enfocamos en el resultado y no en el procedimiento.?",
                 "options": [{
-                        "text": "Es la Representación Simbólica de un Algoritmo.",
+                        "text": "Programación Funcional.",
                         "correct": true
                     },
                     {
-                        "text": "Es una serie de pasos para dar solución a un problema."
+                        "text": "Programación Descriptiva"
                     },
                     {
-                        "text": "Es el orden de los pasos para un sistema de informacion."
+                        "text": "Programación Imperativa"
                     },
                     {
-                        "text": "Es el estudio de las ordenes creadas por un programador."
+                        "text": "Programación Declarativa"
                     }
                 ],
-                "explanation": "TS uses a colon (:) to separate the property name from the property type"
+                "explanation": " "
             },
             {
                 
-                "questionText": "¿Que es un algoritmo5?",
+                "questionText": "Nos enfocamos en responder a la pregunta ¿Que? y no a la pregunta ¿Cómo?",
                 "options": [{
-                        "text": "Es un programa que actúa como intermediario entre el usuario y el hardware de un computador"
+                        "text": "Programación Orientada a Objetos"
                     },
                     {
-                        "text": "Es el seguimiento del DFD para la solucion a un problema."
+                        "text": "Programación Orientada a Aspectos"
                     },
                     {
-                        "text": "Es el orden de los pasos para un sistema de informacion."
+                        "text": "Programación Funcional"
                     },
                     {
-                        "text": "Es una serie de pasos para dar solución a un problema.",
+                        "text": "Programación Funcional",
                         "correct": true
                     }
                 ],
-                "explanation": "enum is not used as a type in TypeScript"
+                "explanation": " "
             },
             {
                 
-                "questionText": "En un lenguaje débilmente tipado5",
+                "questionText": "Son dos características de la programación funcional.",
                 "options": [{
-                        "text": "Un valor de un tipo nunca puede ser tratado como de otro tipo"
+                        "text": "Las variables son consideradas objetos y se pueden reutilizar"
                     },
                     {
-                        "text": "Un valor de un tipo puede ser tratado como de otro tipo",
+                        "text": "Requiere un nivel mayor de abstracción y la programación es independiente del contexto",
                         "correct": true
                     },
                     {
-                        "text": "Un valor de un tipo puede ser tratado como de otro tipo siempre que se realice una conversión de forma explícita"
+                        "text": "Herencia y polimorfismo"
                     },
                     {
-                        "text": "Las anteriores respuestas no son correctas"
+                        "text": "Encapsulación y recursividad"
                     }
                 ],
-                "explanation": "interfaces are typically used to list the properties and methods for an object"
+                "explanation": " "
             },
             {
                 
-                "questionText": "Una cola es:5",
+                "questionText": "Matemáticos que propusieron el problema de la decisión (Entscheidungsproblem) en 1928",
                 "options": [{
-                        "text": "Una estructura de datos en la que sólo se pueden realizar inserciones, pero nunca extracciones"
+                        "text": "Alan Turing y Gottfried Leibniz"
                     },
                     {
-                        "text": "Una estructura de datos en la que las inserciones y extracciones se realizan por el mismo extremo",
+                        "text": "David Hilbert y Wilhelm Ackermann",
                         "correct": true
                     },
                     {
-                        "text": "Una estructura de datos en la que las inserciones se realizan por un extremo y las extracciones por el otro extremo"
+                        "text": "Wilhelm Ackermann y Alonzo Church"
                     },
                     {
-                        "text": "Las anteriores respuestas no son correctas"
+                        "text": "Alonzo Church y Stephen Kleene"
                     }
                 ],
-                "explanation": "number[] is another way of writing Array<number> in TypeScript"
+                "explanation": " "
             },
             {
                 
-                "questionText": "El número 1010 en binario se representa en decimal como5",
+                "questionText": "Matemático que empezó a desarrollar el paradigma funcional para programar los primero proyectos de inteligencia artificial sobre un computador IBM en 1956.",
                 "options": [{
-                        "text": "Las anteriores respuestas no son correctas.",
+                        "text": "John McCarthy",
                         "correct": true
                     },
                     {
-                        "text": "8"
+                        "text": "Alonzo Church"
                     },
                     {
-                        "text": "12"
+                        "text": "Stephen Kleene"
                     },
                     {
-                        "text": "16"
+                        "text": "Gottfried Leibniz"
                     }
                 ],
                 "explanation": "a constructor is used by a class to take in parameters"
